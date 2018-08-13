@@ -1,6 +1,6 @@
 ---
-title: My personal blog - Adam Neilson
-timezone: UTC
+title: Lana Pelin - Photographer in Melbourne
+timezone: Australia/Melbourne
 collections:
   posts:
     title: Posts
@@ -8,43 +8,5 @@ collections:
   uploads:
     title: Uploads
     output: true
-email: 
-description: 'Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for Google search
-  results) and in your feed.xml site description.
-
-'
-permalink: ":title/"
-baseurl: "/adam-blog"
-url: ''
-author: Adam Neilson
-author-pic: adam-face.jpg
-about-author: My name is Adam Neilson. I’m a full-time adventure travel blogger and
-  photographer who’s been exploring the world for over 2 years.
-phone: 
-website: 
-linkedin: 
-github: artemsheludko
-twitter: "@artemsheludko_"
-facebook: 
-instagram: 
-pinterest: 
-mailchimp: 
-discus_identifier: mr-brown
-analytics: 
-paginate: 6
-paginate_path: "/page:num/"
-markdown: kramdown
-plugins:
-- jekyll-paginate
-- jekyll-feed
-- jekyll-sitemap
-include:
-- _pages
-exclude:
-- node_modules
-- gulpfile.js
-- package.json
-- yarn.lock
-- package-lock.json
-- assets/css/sass/
+permalink: pretty
+theme: jekyll-theme-architect
